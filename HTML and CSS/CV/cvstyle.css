@@ -1,0 +1,69 @@
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+  
+.personal-data{
+    border: 5px solid;
+    border-radius: 20px;
+    width: 1050px;
+    height: 400px;
+    background-color: lightblue;
+    padding: 25px;
+    
+   
+}
+.hard-facts{
+    display: inline-block;
+    line-height: 2;
+    font-size: 25px;
+    float: left;
+}
+
+#selfie{
+    display: inline-block;
+    height: 400px;
+    width: 270px;
+    float: right;
+    
+}
+.other{
+    width: 1000px;
+    font-size: 20px;
+    padding: 25px;
+}
+
+th, td{
+    padding-left:25px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+}
+
+tr:hover{
+background-color: yellow;
+}
+
+td:nth-child(1){
+    font-style: italic;
+}
+.border-class{
+    border: 2px solid;
+    border-color: black;
+    background-color: lightblue;
+}
+.emphasize-word{
+    padding-right: 25px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#all-div{
+    font-family: sans-serif,serif;
+    border: 5px;
+    width: 1200px;
+    margin: auto;
+}
