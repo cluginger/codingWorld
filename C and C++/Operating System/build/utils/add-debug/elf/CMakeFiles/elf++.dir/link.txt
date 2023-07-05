@@ -1,0 +1,2 @@
+ar qc ../../../lib/libelf++.a  CMakeFiles/elf++.dir/elf.cc.o CMakeFiles/elf++.dir/mmap_loader.cc.o CMakeFiles/elf++.dir/to_string.cc.o
+ranlib ../../../lib/libelf++.a

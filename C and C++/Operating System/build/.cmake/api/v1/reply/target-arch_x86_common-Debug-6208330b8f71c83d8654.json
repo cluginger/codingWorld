@@ -1,0 +1,270 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libarch_x86_common.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_project_library",
+			"include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"arch/x86/common/source/CMakeLists.txt",
+			"arch/CMakeLists.txt",
+			"arch/x86/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 3
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 5
+			},
+			{
+				"file" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g   -std=gnu++17 -nostdinc++ -fno-rtti -m64 -O0 -gdwarf-2 -Wall -Wextra -Werror -Wno-error=format -Wno-nonnull-compare -nostdinc -nostdlib -nostartfiles -nodefaultlibs -fno-builtin -fno-exceptions -fno-stack-protector -ffreestanding -mcmodel=kernel -mno-red-zone -mgeneral-regs-only -mno-mmx -mno-sse2 -mno-sse3 -mno-3dnow -fcf-protection=none -fno-PIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "CMAKE_X86_64=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/cache"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/console"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/device"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/inodes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/minix"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/unixfs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/kernel"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/mm"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/ustl"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/util"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/common/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/../x86/64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/../x86/64/common/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/../x86/64/../common/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/../x86/64/../../common/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"id" : "arch_x86_common::@0d2d646a91c4935748cf",
+	"name" : "arch_x86_common",
+	"nameOnDisk" : "libarch_x86_common.a",
+	"paths" : 
+	{
+		"build" : "arch/x86/common/source",
+		"source" : "arch/x86/common/source"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/8259.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/ATADriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/IDEDriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/KeyboardManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/SerialManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/SerialPort.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/arch_serial_constants.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/assert.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/atkbd.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/common/source/debug_bochs.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

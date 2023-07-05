@@ -1,0 +1,267 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/AddDebugInfo.cmake"
+		},
+		{
+			"path" : "arch/x86/64/CMakeLists.compiler"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.15.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.15.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.15.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.15.4/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "arch/x86/64/CMakeLists.include"
+		},
+		{
+			"path" : "arch/x86/64/CMakeLists.userspace"
+		},
+		{
+			"path" : "cmake/MakeArchTarget.cmake"
+		},
+		{
+			"path" : "arch/CMakeLists.txt"
+		},
+		{
+			"path" : "arch/x86/64/CMakeLists.subfolders"
+		},
+		{
+			"path" : "arch/x86/CMakeLists.txt"
+		},
+		{
+			"path" : "arch/x86/common/source/CMakeLists.txt"
+		},
+		{
+			"path" : "arch/x86/64/CMakeLists.txt"
+		},
+		{
+			"path" : "arch/x86/64/source/CMakeLists.txt"
+		},
+		{
+			"path" : "arch/x86/64/userspace/CMakeLists.txt"
+		},
+		{
+			"path" : "common/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/console/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/fs/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/fs/devicefs/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/fs/minixfs/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/fs/ramfs/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/kernel/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/mm/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/util/CMakeLists.txt"
+		},
+		{
+			"path" : "common/source/ustl/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/exe2minixfs/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/add-debug/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/add-debug/elf/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/add-debug/dwarf/CMakeLists.txt"
+		},
+		{
+			"path" : "utils/images/CMakeLists.txt"
+		},
+		{
+			"path" : "userspace/CMakeLists.txt"
+		},
+		{
+			"path" : "userspace/libc/CMakeLists.txt"
+		},
+		{
+			"path" : "userspace/libc/src/CMakeLists.txt"
+		},
+		{
+			"path" : "userspace/tests/CMakeLists.txt"
+		},
+		{
+			"path" : "arch/x86/64/CMakeLists.userspace"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build",
+		"source" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,1 @@
+g++  -g  -rdynamic CMakeFiles/add-dbg.dir/add-dbg.cc.o  -o ../../add-dbg ../../lib/libelf++.a ../../lib/libdwarf++.a 

@@ -1,0 +1,196 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "arch/x86/64/source/CMakeFiles/arch_x86_64_archobjs.dir/boot.32.C.o"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"arch2obj",
+			"add_project_library",
+			"include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"arch/x86/64/CMakeLists.include",
+			"CMakeLists.txt",
+			"arch/x86/64/source/CMakeLists.txt",
+			"arch/CMakeLists.txt",
+			"arch/x86/64/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 2,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 6
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g   -std=gnu++17 -nostdinc++ -fno-rtti -m64 -O0 -gdwarf-2 -Wall -Wextra -Werror -Wno-error=format -Wno-nonnull-compare -nostdinc -nostdlib -nostartfiles -nodefaultlibs -fno-builtin -fno-exceptions -fno-stack-protector -ffreestanding -mcmodel=kernel -mno-red-zone -mgeneral-regs-only -mno-mmx -mno-sse2 -mno-sse3 -mno-3dnow -fcf-protection=none -fno-PIC -m32 -g0 -mcmodel=32 -momit-leaf-frame-pointer -Wa,--64 -fno-toplevel-reorder"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "CMAKE_X86_64=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/common/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/cache"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/console"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/device"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/inodes"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/minix"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/fs/unixfs"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/kernel"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/mm"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/ustl"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/../common/include/util"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/64/../../common/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/64/../common/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/arch/x86/64/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "arch_x86_64_archobjs::@fcb4337bc48443f9e9e5",
+	"name" : "arch_x86_64_archobjs",
+	"paths" : 
+	{
+		"build" : "arch/x86/64/source",
+		"source" : "arch/x86/64/source"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "arch/x86/64/source/boot.32.C",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

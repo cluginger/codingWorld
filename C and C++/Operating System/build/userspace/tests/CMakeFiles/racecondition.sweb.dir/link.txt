@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/racecondition.sweb.dir/racecondition.c.o  -o ../racecondition.sweb -m64 -Wl,--build-id=none -Wl,-z,max-page-size=0x1000 -Wl,-melf_x86_64 -nostdinc -nostdlib -nodefaultlibs -static -Wl,-Ttext=0x8000000 -Wl,--build-id=none -Wl,-whole-archive ../../lib/libuserspace_libc.a 

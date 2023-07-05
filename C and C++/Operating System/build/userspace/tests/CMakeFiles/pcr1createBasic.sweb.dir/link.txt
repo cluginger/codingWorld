@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/pcr1createBasic.sweb.dir/pcr1createBasic.c.o  -o ../pcr1createBasic.sweb -m64 -Wl,--build-id=none -Wl,-z,max-page-size=0x1000 -Wl,-melf_x86_64 -nostdinc -nostdlib -nodefaultlibs -static -Wl,-Ttext=0x8000000 -Wl,--build-id=none -Wl,-whole-archive ../../lib/libuserspace_libc.a 

@@ -1,0 +1,105 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 215,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "arch_x86_common::@0d2d646a91c4935748cf"
+		},
+		{
+			"id" : "arch_x86_64::@fcb4337bc48443f9e9e5"
+		},
+		{
+			"id" : "common_console::@8165cb6a817e600084a8"
+		},
+		{
+			"id" : "common_fs::@bda79a6b14c1c9814c69"
+		},
+		{
+			"id" : "common_fs_devicefs::@c45d743a319ee8cd724f"
+		},
+		{
+			"id" : "common_fs_minixfs::@b335e67274b625dab3e1"
+		},
+		{
+			"id" : "common_fs_ramfs::@caf2f2a4026908729fa0"
+		},
+		{
+			"id" : "common_kernel::@d3edb72d40d2d0fcb6ac"
+		},
+		{
+			"id" : "common_mm::@064ff0e643e1c41656ab"
+		},
+		{
+			"id" : "common_util::@6d359b6d49a868631e28"
+		},
+		{
+			"id" : "common_ustl::@61a306cf2176bf07733f"
+		},
+		{
+			"id" : "add-dbg::@7b996e6025f22a0ffcc7"
+		}
+	],
+	"id" : "kernel_image::@6890427a1f51a3e7e1df",
+	"name" : "kernel_image",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/kernel_image",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/kernel_image.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

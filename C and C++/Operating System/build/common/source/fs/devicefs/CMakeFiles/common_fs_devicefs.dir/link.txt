@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libcommon_fs_devicefs.a  CMakeFiles/common_fs_devicefs.dir/DeviceFSSuperblock.cpp.o CMakeFiles/common_fs_devicefs.dir/DeviceFSType.cpp.o
+/usr/bin/ranlib ../../../../lib/libcommon_fs_devicefs.a

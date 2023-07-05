@@ -1,0 +1,2 @@
+ar qc ../../../lib/libdwarf++.a  CMakeFiles/dwarf++.dir/dwarf.cc.o CMakeFiles/dwarf++.dir/cursor.cc.o CMakeFiles/dwarf++.dir/die.cc.o CMakeFiles/dwarf++.dir/value.cc.o CMakeFiles/dwarf++.dir/abbrev.cc.o CMakeFiles/dwarf++.dir/expr.cc.o CMakeFiles/dwarf++.dir/rangelist.cc.o CMakeFiles/dwarf++.dir/line.cc.o CMakeFiles/dwarf++.dir/attrs.cc.o CMakeFiles/dwarf++.dir/die_str_map.cc.o CMakeFiles/dwarf++.dir/elf.cc.o CMakeFiles/dwarf++.dir/to_string.cc.o
+ranlib ../../../lib/libdwarf++.a

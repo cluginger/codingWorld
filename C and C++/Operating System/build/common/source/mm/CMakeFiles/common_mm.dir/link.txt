@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libcommon_mm.a  CMakeFiles/common_mm.dir/KernelMemoryManager.cpp.o CMakeFiles/common_mm.dir/PageFaultHandler.cpp.o CMakeFiles/common_mm.dir/PageManager.cpp.o CMakeFiles/common_mm.dir/kmalloc.cpp.o CMakeFiles/common_mm.dir/new.cpp.o
+/usr/bin/ranlib ../../../lib/libcommon_mm.a

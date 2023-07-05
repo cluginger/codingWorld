@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libcommon_fs_minixfs.a  CMakeFiles/common_fs_minixfs.dir/MinixFSFile.cpp.o CMakeFiles/common_fs_minixfs.dir/MinixFSInode.cpp.o CMakeFiles/common_fs_minixfs.dir/MinixFSSuperblock.cpp.o CMakeFiles/common_fs_minixfs.dir/MinixFSType.cpp.o CMakeFiles/common_fs_minixfs.dir/MinixFSZone.cpp.o CMakeFiles/common_fs_minixfs.dir/MinixStorageManager.cpp.o CMakeFiles/common_fs_minixfs.dir/StorageManager.cpp.o
+/usr/bin/ranlib ../../../../lib/libcommon_fs_minixfs.a

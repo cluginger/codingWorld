@@ -1,0 +1,246 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libcommon_util.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_project_library",
+			"include_directories",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"common/source/util/CMakeLists.txt",
+			"common/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g   -std=gnu++17 -nostdinc++ -fno-rtti -m64 -O0 -gdwarf-2 -Wall -Wextra -Werror -Wno-error=format -Wno-nonnull-compare -nostdinc -nostdlib -nostartfiles -nodefaultlibs -fno-builtin -fno-exceptions -fno-stack-protector -ffreestanding -mcmodel=kernel -mno-red-zone -mgeneral-regs-only -mno-mmx -mno-sse2 -mno-sse3 -mno-3dnow -fcf-protection=none -fno-PIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "CMAKE_X86_64=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/../arch/common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/../arch/x86/64/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/../arch/x86/64/common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/../arch/x86/64/../common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/../arch/x86/64/../../common/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/console"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/kernel"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/drivers"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/fs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/fs/devicefs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/fs/minixfs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/fs/pseudofs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/fs/ramfs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/ipc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/mm"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/util"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/include/ustl"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/common/source/util/../../include/util"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"id" : "common_util::@6d359b6d49a868631e28",
+	"name" : "common_util",
+	"nameOnDisk" : "libcommon_util.a",
+	"paths" : 
+	{
+		"build" : "common/source/util",
+		"source" : "common/source/util"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "common/source/util/Bitmap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "common/source/util/SWEBDebugInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "common/source/util/Stabs2DebugInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "common/source/util/backtrace.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "common/source/util/kstring.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "common/source/util/libgcc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "common/source/util/qsort.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

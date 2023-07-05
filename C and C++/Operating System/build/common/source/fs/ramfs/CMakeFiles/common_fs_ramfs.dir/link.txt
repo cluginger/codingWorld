@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libcommon_fs_ramfs.a  CMakeFiles/common_fs_ramfs.dir/RamFSFile.cpp.o CMakeFiles/common_fs_ramfs.dir/RamFSInode.cpp.o CMakeFiles/common_fs_ramfs.dir/RamFSSuperblock.cpp.o CMakeFiles/common_fs_ramfs.dir/RamFSType.cpp.o
+/usr/bin/ranlib ../../../../lib/libcommon_fs_ramfs.a

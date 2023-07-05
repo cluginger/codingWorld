@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libcommon_console.a  CMakeFiles/common_console.dir/Console.cpp.o CMakeFiles/common_console.dir/FrameBufferConsole.cpp.o CMakeFiles/common_console.dir/Terminal.cpp.o CMakeFiles/common_console.dir/TextConsole.cpp.o CMakeFiles/common_console.dir/font_sun8x16.c.o CMakeFiles/common_console.dir/kprintf.cpp.o CMakeFiles/common_console.dir/panic.cpp.o
+/usr/bin/ranlib ../../../lib/libcommon_console.a
