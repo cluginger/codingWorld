@@ -1,0 +1,7 @@
+{
+    "name": "ifelse",
+    "criterion": "(17,{y})",
+    "file": "ifelse.java",
+    "result": [3, 4, 5, 7, 9, 14]
+}
+

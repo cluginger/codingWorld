@@ -1,0 +1,181 @@
+[
+  {
+    "step": 1,
+    "input": "12345678",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": ""
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 2,
+    "input": "1234",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ1"
+  },
+  {
+    "step": 3,
+    "input": "5678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ2"
+  },
+  {
+    "step": 4,
+    "input": "5678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "∇1"
+  },
+  {
+    "step": 5,
+    "input": "1234",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "∇2"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 6,
+    "input": "12",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "Δ1"
+  },
+  {
+    "step": 7,
+    "input": "34",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ2"
+  },
+  {
+    "step": 8,
+    "input": "56",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ3"
+  },
+  {
+    "step": 9,
+    "input": "78",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "Δ4"
+  },
+  {
+    "step": 10,
+    "input": "345678",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "∇1"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 11,
+    "input": "34",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ1"
+  },
+  {
+    "step": 12,
+    "input": "56",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ2"
+  },
+  {
+    "step": 13,
+    "input": "78",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "Δ3"
+  },
+  {
+    "step": 14,
+    "input": "5678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "∇1"
+  },
+  {
+    "step": 15,
+    "input": "3478",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "∇2"
+  },
+  {
+    "step": 16,
+    "input": "3456",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "∇3"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 17,
+    "input": "34",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ1"
+  },
+  {
+    "step": 18,
+    "input": "56",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ2"
+  },
+  {
+    "step": 19,
+    "input": "56",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "∇1"
+  },
+  {
+    "step": 20,
+    "input": "34",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "∇2"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 21,
+    "input": "3",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "Δ1"
+  },
+  {
+    "step": 22,
+    "input": "4",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "Δ2"
+  },
+  {
+    "step": 23,
+    "input": "5",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "Δ3"
+  },
+  {
+    "lineType": "BREAK"
+  }
+]

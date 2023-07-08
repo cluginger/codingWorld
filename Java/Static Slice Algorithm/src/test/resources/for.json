@@ -1,0 +1,7 @@
+{
+    "name": "for",
+    "criterion": "(17,{z})",
+    "file": "for.java",
+    "result": [3, 5, 9, 16]
+}
+

@@ -1,0 +1,7 @@
+{
+    "name": "if",
+    "criterion": "(10,{z})",
+    "file": "if.java",
+    "result": [3, 4, 5, 7, 9]
+}
+

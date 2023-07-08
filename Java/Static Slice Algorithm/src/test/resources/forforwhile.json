@@ -1,0 +1,7 @@
+{
+    "name": "forforwhile",
+    "criterion": "(22,{y})",
+    "file": "forforwhile.java",
+    "result": [3, 4, 5, 6, 7, 10, 12, 13, 16, 17, 20]
+}
+

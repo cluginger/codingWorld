@@ -1,0 +1,150 @@
+[
+  {
+    "step": 1,
+    "input": "12345678ADDQVW",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "cf"
+  },
+  {
+    "step": 2,
+    "input": "",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 3,
+    "input": "1234ADQ",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 4,
+    "input": "5678VW",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 5,
+    "input": "56V",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 6,
+    "input": "78W",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "step": 7,
+    "input": "78W",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ1"
+  },
+  {
+    "step": 8,
+    "input": "56V",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ2"
+  },
+  {
+    "step": 9,
+    "input": "56V",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 10,
+    "input": "78W",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "step": 11,
+    "input": "78W",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ1"
+  },
+  {
+    "step": 12,
+    "input": "56V",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ2"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 13,
+    "input": "5V",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 14,
+    "input": "67",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "step": 15,
+    "input": "W",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ3"
+  },
+  {
+    "step": 16,
+    "input": "8",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ4"
+  },
+  {
+    "step": 17,
+    "input": "678W",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "cf / Δ1"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 18,
+    "input": "5678W",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 19,
+    "input": "678VW",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "lineType": "BREAK"
+  }
+]

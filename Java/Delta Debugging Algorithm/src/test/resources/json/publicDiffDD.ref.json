@@ -1,0 +1,147 @@
+[
+  {
+    "step": 1,
+    "input": "12345678",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "cf"
+  },
+  {
+    "step": 2,
+    "input": "",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 3,
+    "input": "1234",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 4,
+    "input": "5678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "step": 5,
+    "input": "5678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ1"
+  },
+  {
+    "step": 6,
+    "input": "1234",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ2"
+  },
+  {
+    "step": 7,
+    "input": "1234",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 8,
+    "input": "5678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "step": 9,
+    "input": "5678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ1"
+  },
+  {
+    "step": 10,
+    "input": "1234",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ2"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 11,
+    "input": "12",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 12,
+    "input": "34",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "step": 13,
+    "input": "56",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ3"
+  },
+  {
+    "step": 14,
+    "input": "78",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cs ∪ Δ4"
+  },
+  {
+    "step": 15,
+    "input": "345678",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "cf / Δ1"
+  },
+  {
+    "step": 16,
+    "input": "125678",
+    "lineType": "LOG",
+    "result": "UNRES",
+    "testcase": "cf / Δ2"
+  },
+  {
+    "step": 17,
+    "input": "123478",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "cf / Δ3"
+  },
+  {
+    "lineType": "BREAK"
+  },
+  {
+    "step": 18,
+    "input": "1234578",
+    "lineType": "LOG",
+    "result": "PASS",
+    "testcase": "cs ∪ Δ1"
+  },
+  {
+    "step": 19,
+    "input": "1234678",
+    "lineType": "LOG",
+    "result": "FAIL",
+    "testcase": "cs ∪ Δ2"
+  },
+  {
+    "lineType": "BREAK"
+  }
+]

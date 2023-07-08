@@ -1,0 +1,9 @@
+{
+    "criterion": "(13,{z})",
+    "file": "public1.java",
+    "name": "public1",
+    "result": [4, 8, 11, 12]
+}
+
+
+
