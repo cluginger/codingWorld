@@ -1,0 +1,54 @@
+compinfo:
+  {
+    "codefiles":["ass-b3.c"],
+    "libfile":"../../../ass-b3.so",
+    "binary":"../ass-b3",
+    "assignment_root":"../"
+  }
+testcases:
+  [
+     {"name":"bunch of sevens",
+              "description":"good luck",
+              "result":" Input:  777777777 - 0010 1110 | 0101 1011 | 1111 0010 | 0111 0001\n
+                           BCD: Binary Code too large.\n
+                        Binary: Binary Code too large.\n",
+              "return":0,
+              "mode":"io",
+              "args":"777777777"
+     },
+     {"name":"The answer",
+              "description":"Answer to the Ultimate Question of Life, the Universe, and Everything",
+              "result":" Input:         42 - 0000 0000 | 0000 0000 | 0000 0000 | 0010 1010\n
+                           BCD:         66 - 0000 0000 | 0000 0000 | 0000 0000 | 0100 0010\n
+                        Binary:         42 - 0000 0000 | 0000 0000 | 0000 0000 | 0010 1010\n",
+              "return":0,
+              "mode":"io",
+              "args":"42"
+     },
+{"name":"binary to bcd from readme",
+            "tags":{
+              "<FNAME>":"convertBinaryToBCD",
+              "<RETTYPE>":"unsigned long",
+              "<OUTFORMAT>":"%lu",
+              "<INPUT>":"101",
+              "<LIBRARY>":"",
+              "<INTYPES>":"unsigned long",
+              },
+              "description":"convertBinaryToBCD from description; hint no prints in unit test functions",
+              "result":"257",
+              "return":0,
+              "mode":"unit"},
+   {"name":"bcd to binary from readme",
+            "tags":{
+              "<FNAME>":"convertBCDToBinary",
+              "<RETTYPE>":"unsigned long",
+              "<OUTFORMAT>":"%lu",
+              "<INPUT>":"257",
+              "<LIBRARY>":"",
+              "<INTYPES>":"unsigned long",
+              },
+              "description":"the other direction",
+              "result":"101",
+              "return":0,
+              "mode":"unit"}
+  ]
