@@ -1,0 +1,29 @@
+The MIT Technology Review is reporting that 2021 is a blockbuster year for zero-day exploits:
+
+    One contributing factor in the higher rate of reported zero-days is the rapid global proliferation of hacking tools.
+
+    Powerful groups are all pouring heaps of cash into zero-days to use for themselves - and they're reaping the rewards.
+
+    At the top of the food chain are the government-sponsored hackers. China alone is suspected to be responsible for nine zero-days this year, says Jared Semrau, a director of vulnerability and exploitation at the American cybersecurity firm FireEye Mandiant. The US and its allies clearly possess some of the most sophisticated hacking capabilities, and there is rising talk of using those tools more aggressively.
+
+    [...]
+
+    Few who want zero-days have the capabilities of Beijing and Washington. Most countries seeking powerful exploits don't have the talent or infrastructure to develop them domestically, and so they purchase them instead.
+
+    [...]
+
+    It's easier than ever to buy zero-days from the growing exploit industry. What was once prohibitively expensive and high-end is now more widely accessible.
+
+    [...]
+
+    And cybercriminals, too, have used zero-day attacks to make money in recent years, finding flaws in software that allow them to run valuable ransomware schemes.
+
+    "Financially motivated actors are more sophisticated than ever," Semrau says. "One-third of the zero-days we've tracked recently can be traced directly back to financially motivated actors. So they're playing a significant role in this increase which I don't think many people are giving credit for."
+
+    [...]
+
+    No one we spoke to believes that the total number of zero-day attacks more than doubled in such a short period of time - just the number that have been caught. That suggests defenders are becoming better at catching hackers in the act.
+
+    You can look at the data, such as Google's zero-day spreadsheet, which tracks nearly a decade of significant hacks that were caught in the wild.
+
+    One change the trend may reflect is that there's more money available for defense, not least from larger bug bounties and rewards put forward by tech companies for the discovery of new zero-day vulnerabilities. But there are also better tools.
