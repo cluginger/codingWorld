@@ -49,55 +49,55 @@ CMAKE_SOURCE_DIR = /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2
 CMAKE_BINARY_DIR = /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build
 
 # Include any dependencies generated for this target.
-include userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/depend.make
+include userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/depend.make
 
 # Include the progress variables for this target.
-include userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/progress.make
+include userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/flags.make
+include userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/flags.make
 
-userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.o: userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/flags.make
-userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.o: ../userspace/tests/m4mallocMayhemMultiSwap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.o"
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.o   -c /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests/m4mallocMayhemMultiSwap.c
+userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.o: userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/flags.make
+userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.o: ../userspace/tests/m4mallocmayhemMultiSwap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.o"
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.o   -c /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests/m4mallocmayhemMultiSwap.c
 
-userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.i"
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests/m4mallocMayhemMultiSwap.c > CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.i
+userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.i"
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests/m4mallocmayhemMultiSwap.c > CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.i
 
-userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.s"
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests/m4mallocMayhemMultiSwap.c -o CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.s
+userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.s"
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests/m4mallocmayhemMultiSwap.c -o CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.s
 
-# Object files for target m4mallocMayhemMultiSwap.sweb
-m4mallocMayhemMultiSwap_sweb_OBJECTS = \
-"CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.o"
+# Object files for target m4mallocmayhemMultiSwap.sweb
+m4mallocmayhemMultiSwap_sweb_OBJECTS = \
+"CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.o"
 
-# External object files for target m4mallocMayhemMultiSwap.sweb
-m4mallocMayhemMultiSwap_sweb_EXTERNAL_OBJECTS =
+# External object files for target m4mallocmayhemMultiSwap.sweb
+m4mallocmayhemMultiSwap_sweb_EXTERNAL_OBJECTS =
 
-userspace/m4mallocMayhemMultiSwap.sweb: userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/m4mallocMayhemMultiSwap.c.o
-userspace/m4mallocMayhemMultiSwap.sweb: userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/build.make
-userspace/m4mallocMayhemMultiSwap.sweb: lib/libuserspace_libc.a
-userspace/m4mallocMayhemMultiSwap.sweb: userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../m4mallocMayhemMultiSwap.sweb"
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && ../../add-dbg /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocMayhemMultiSwap.sweb /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocMayhemMultiSwap.sweb.dbg
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/objcopy --remove-section .swebdbg /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocMayhemMultiSwap.sweb
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/objcopy --add-section .swebdbg="/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocMayhemMultiSwap.sweb.dbg" --set-section-flags .swebdbg=noload,readonly /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocMayhemMultiSwap.sweb
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/local/bin/cmake -E remove -f /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocMayhemMultiSwap.sweb.dbg
+userspace/m4mallocmayhemMultiSwap.sweb: userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/m4mallocmayhemMultiSwap.c.o
+userspace/m4mallocmayhemMultiSwap.sweb: userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/build.make
+userspace/m4mallocmayhemMultiSwap.sweb: lib/libuserspace_libc.a
+userspace/m4mallocmayhemMultiSwap.sweb: userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../m4mallocmayhemMultiSwap.sweb"
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && ../../add-dbg /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocmayhemMultiSwap.sweb /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocmayhemMultiSwap.sweb.dbg
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/objcopy --remove-section .swebdbg /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocmayhemMultiSwap.sweb
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/bin/objcopy --add-section .swebdbg="/home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocmayhemMultiSwap.sweb.dbg" --set-section-flags .swebdbg=noload,readonly /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocmayhemMultiSwap.sweb
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && /usr/local/bin/cmake -E remove -f /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/m4mallocmayhemMultiSwap.sweb.dbg
 
 # Rule to build all files generated by this target.
-userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/build: userspace/m4mallocMayhemMultiSwap.sweb
+userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/build: userspace/m4mallocmayhemMultiSwap.sweb
 
-.PHONY : userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/build
+.PHONY : userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/build
 
-userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/clean:
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && $(CMAKE_COMMAND) -P CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/cmake_clean.cmake
-.PHONY : userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/clean
+userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/clean:
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests && $(CMAKE_COMMAND) -P CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/cmake_clean.cmake
+.PHONY : userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/clean
 
-userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/depend:
-	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2 /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : userspace/tests/CMakeFiles/m4mallocMayhemMultiSwap.sweb.dir/depend
+userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/depend:
+	cd /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2 /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/userspace/tests /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests /home/chrislug/Schreibtisch/SEW/10.Semester/bss23c2/build/userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : userspace/tests/CMakeFiles/m4mallocmayhemMultiSwap.sweb.dir/depend
 
